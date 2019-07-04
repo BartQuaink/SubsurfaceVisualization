@@ -1,0 +1,12 @@
+{
+  "name": "VerticalExaggaration",
+  "platform": "HTML3D",
+  "2D": false,
+  "3D": true,
+  "version": "2.12",
+  "wabVersion": "2.12",
+  "author": "Esri NL",
+  "description": "This widget dynamically alters the vertical exaggaration shown with GeoTOP data",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

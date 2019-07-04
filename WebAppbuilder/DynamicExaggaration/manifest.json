@@ -1,0 +1,19 @@
+{
+  "name": "DynamicExaggaration",
+  "2D": false,
+  "3D": true,
+  "platform": "HTML3D",
+  "version": "2.12",
+  "wabVersion": "2.12",
+  "author": "Bart Quaink",
+  "description": "Dynamically alters the vertical exaggaration based on a value given",
+  "copyright": "BQuaink, Esri NL",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "inPanel": true,
+    "hasUIFile": false,
+    "hasConfig": false,
+    "hasStyle":false,
+    "mirrorIconForRTL": true
+  }
+}
