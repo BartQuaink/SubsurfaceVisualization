@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <!--
+     ArcGIS API for JavaScript, https://js.arcgis.com
+     For more information about the building-scene-layer-slice sample,
+     read the original sample description at developers.arcgis.com.
+     https://developers.arcgis.com/javascript/latest/sample-code/building-scene-layer-slice/index.html
+     -->
+    <title>GeoTOP Visualization wtih slicing tool - 4.11</title>
+		<link rel="stylesheet" type="text/css" href="../style/style.css">
+
+    <link
+      href="https://js.arcgis.com/4.11/esri/themes/light/main.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://js.arcgis.com/4.11/"></script>
+		<script src="../scripts/functions.js"></script>
+  </head>
+
+  <body>
+    <div id="viewDiv"></div>
+
+    <button class="action-button" id="slice" type="button" title="Slice layers">
+      Slice layers
+    </button>
+
+		<button class="action-button" id="dynaex" type="button" title="Alter vertical exaggaration">
+      Dynamic Exaggaration
+    </button>
+
+		<div class="tooltip">
+			<label for="vertexVal">Vertical exaggaration value: </label>
+			<span id="slider_value" style="color:black;">10</span>
+			<input width = 400 type="range" min="1" max="100" value="10" class="slider" id="vertexVal"/>
+		</div>
+  </body>
+</html>
